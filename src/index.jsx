@@ -9,7 +9,7 @@ import './screens.css';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/evergreen-interiors",
     element: <Homepage />
   }, {
     path: "bedroom",
