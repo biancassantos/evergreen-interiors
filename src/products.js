@@ -2,7 +2,7 @@ const products = [
     {
         id: 1,
         productName: "Bedside Table",
-        productImg: '../public/productsImg/bedside-table.png',
+        productImg: './assets/bedside-table.png',
         productPrice: 149,
         productDescription: 'The Bedside Table is a piece of furniture designed with environmental consciousness and longevity in mind, not only meeting the functional needs but also aligning with eco-friendly practices, promoting a healthier planet and conscious consumerism. Here are some key characteristics:',
         descriptionList: [
@@ -19,7 +19,7 @@ const products = [
     }, {
         id: 2,
         productName: "Bed One",
-        productImg: '../public/productsImg/bed-1.png',
+        productImg: './assets/bed-1.png',
         productPrice: 299,
         productDescription: '',
         descriptionList: [],
@@ -27,7 +27,7 @@ const products = [
     }, {
         id: 3,
         productName: "Bed Two",
-        productImg: '../public/productsImg/bed-2.png',
+        productImg: './assets/bed-2.png',
         productPrice: 499,
         productDescription: '',
         descriptionList: [],
@@ -35,7 +35,7 @@ const products = [
     }, {
         id: 4,
         productName: "Cupboard",
-        productImg: '../public/productsImg/cupboard.png',
+        productImg: './assets/cupboard.png',
         productPrice: 159,
         productDescription: '',
         descriptionList: [],
@@ -43,7 +43,7 @@ const products = [
     }, {
         id: 5,
         productName: "Bed Three",
-        productImg: '../public/productsImg/bed-3.png',
+        productImg: './assets/bed-3.png',
         productPrice: 299,
         productDescription: '',
         descriptionList: [],
@@ -51,7 +51,7 @@ const products = [
     }, {
         id: 6,
         productName: "Nightstand",
-        productImg: '../public/productsImg/nightstand.png',
+        productImg: './assets/nightstand.png',
         productPrice: 99,
         productDescription: '',
         descriptionList: [],
@@ -59,7 +59,7 @@ const products = [
     }, {
         id: 7,
         productName: "Armoire",
-        productImg: '../public/productsImg/armoire.png',
+        productImg: './assets/armoire.png',
         productPrice: 499,
         productDescription: '',
         descriptionList: [],
@@ -67,7 +67,7 @@ const products = [
     }, {
         id: 8,
         productName: "Lounge",
-        productImg: '../public/productsImg/lounge.png',
+        productImg: './assets/lounge.png',
         productPrice: 239,
         productDescription: '',
         descriptionList: [],

@@ -6,7 +6,7 @@ import ProductSpecifics from "./ProductSpecifics";
 const ProductInfo = ({showProduct}) => {
   return (
     <section className="product-description">
-        <Link to="/bedroom" className="go-back">
+        <Link to="/evergreen-interiors/bedroom" className="go-back">
             <p><FaArrowLeft /> Go back</p>
         </Link>
 
