@@ -12,10 +12,10 @@ const router = createBrowserRouter([
     path: "/evergreen-interiors",
     element: <Homepage />
   }, {
-    path: "bedroom",
+    path: "/evergreen-interiors/bedroom",
     element: <Bedroom />
   }, {
-    path: "bedroom/:id",
+    path: "/evergreen-interiors/bedroom/:id",
     element: <ProductPage />
   }
 ])
