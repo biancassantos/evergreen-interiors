@@ -1,8 +1,18 @@
-# React + Vite
+# Evergreen Interiors
+ 
+Olá, esse é um projeto de uma loja de móveis sustentáveis, usando o React pela primeira vez.
+A rota indicada é Home > Bedroom > Bedside Table.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<a href="https://biancassantos.github.io/evergreen-interiors" target="_blank">Acesse aqui sua página.</a>
 
-Currently, two official plugins are available:
+![Design do projeto](https://raw.githubusercontent.com/biancassantos/evergreen-interiors/main/evergreen-design.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Tecnologias:**
+* HTML
+* CSS
+* JS
+* React
+
+**Imagens:**
+* De <a href="https://www.vecteezy.com/free-png/furniture?license-free=true" target="_blank">Vecteezy</a>
+* De <a href="https://unsplash.com/pt-br" target="_blank">Unsplash</a>
