@@ -152,6 +152,11 @@ header button {
   padding: 8px 30px;
 }
 
+.hero-btn a {
+  text-decoration: none;
+  color: #4B2A12;
+}
+
 /* --- BUTTONS --- */
 
 main button, input[type=submit] {
@@ -398,8 +403,32 @@ footer {
 }
 
 /* --- PAGES HEROS --- */
+.all {
+  background: url('./assets/all-hero.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .bedroom {
   background: url('./assets/bedroom-hero.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.livingroom {
+  background: url('./assets/livingroom-hero.jpg') no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.kitchen {
+  background: url('./assets/kitchen-hero.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.diningroom {
+  background: url('./assets/diningroom-hero.jpg') no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -471,10 +500,12 @@ select {
 }
 
 .go-back {
-  text-decoration: none;
-  font-size: 1.2rem;
+  padding: 3px 10px;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  font-weight: 400;
   color: #4B2A12;
-  width: 120px;
+  background-color: transparent;
   transition: .3s;
 }
 

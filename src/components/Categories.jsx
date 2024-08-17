@@ -15,19 +15,19 @@ const Categories = () => {
                     <p>bedroom</p>
                 </section> 
             </Link>
-            <Link to="#">
+            <Link to="livingroom">
                 <section className="category-card">
                     <img src={livingroom} alt="single sofa" />
                     <p>living room / office</p>
                 </section>   
             </Link>
-            <Link to="#">
+            <Link to="kitchen">
                 <section className="category-card">
                     <img src={kitchen} alt="wine cellar" />
                     <p>kitchen</p>
                 </section>  
             </Link>
-            <Link to="#">
+            <Link to="diningroom">
                 <section className="category-card">
                     <img src={diningroom} alt="dining table" />
                     <p>dining room</p>

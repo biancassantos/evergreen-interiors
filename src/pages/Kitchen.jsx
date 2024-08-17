@@ -4,21 +4,21 @@ import Footer from "../components/Footer";
 import HeroProducts from "../components/HeroProducts";
 import ProductsContainer from "../components/ProductsContainer";
 
-const Bedroom = () => {
+const Kitchen = () => {
   useEffect(() => {
-    document.title = "Bedroom | Evergreen Interiors"
+    document.title = "Kitchen | Evergreen Interiors"
   }, []);
 
   return (
     <>
     <Header />
     <main>
-        <HeroProducts title="bedroom" imgClass="bedroom"/>
-        <ProductsContainer category="bedroom"/>
+        <HeroProducts title="kitchen" imgClass="kitchen"/>
+        <ProductsContainer category="kitchen"/>
     </main>
     <Footer />
     </>
   )
 }
 
-export default Bedroom;
+export default Kitchen;

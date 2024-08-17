@@ -1,14 +1,16 @@
 /* eslint-disable react/prop-types */
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { FaSearch, FaArrowLeft } from "react-icons/fa";
 import ProductSpecifics from "./ProductSpecifics";
 
 const ProductInfo = ({showProduct}) => {
+    const navigate = useNavigate();
+    
   return (
     <section className="product-description">
-        <Link to="/evergreen-interiors/bedroom" className="go-back">
-            <p><FaArrowLeft /> Go back</p>
-        </Link>
+        <button onClick={() => navigate(-1)} className="go-back">
+            <FaArrowLeft /> Go back
+        </button>
 
         <section className="product-container">
             <div className="product-img-big">
