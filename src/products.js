@@ -255,7 +255,7 @@ const products = [
         ]
     }, {
         id: 15,
-        productName: "Glass Cabinet",
+        productName: "Wooden Glass Cabinet",
         productImg: 'productsImg/glass-cabinet.png',
         productPrice: 179,
         category: ["diningroom", "all"],

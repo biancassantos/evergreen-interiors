@@ -11,7 +11,7 @@ const ProductCard = ({ id, productImg, imgAlt, productName, productPrice }) => {
         </div>
         <div className="product-info">
             <div className="product-header">
-                <h3>{productName}</h3>
+                <h3>{productName.length > 13 ? `${productName.substring(0, 11)}...` : productName}</h3>
                 <select name="quantity" id="quantity">
                     <option value="1">1</option>
                     <option value="2">2</option>
