@@ -14,7 +14,7 @@ const ProductInfo = ({showProduct}) => {
 
         <section className="product-container">
             <div className="product-img-big">
-                <img src={showProduct[0].productImg} alt={showProduct[0].productName} />
+                <img src={`../${showProduct[0].productImg}`} alt={showProduct[0].productName} />
             </div>
             <div>
                 <h1>{showProduct[0].productName}</h1>
