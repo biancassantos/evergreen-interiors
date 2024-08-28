@@ -1,7 +1,6 @@
 # Evergreen Interiors
  
-Olá, esse é um projeto de uma loja de móveis sustentáveis, usando o React pela primeira vez.
-A rota indicada é Home > Bedroom > Bedside Table.
+Olá, esse é um projeto de uma loja de móveis sustentáveis, usando o React e o React router dom pela primeira vez.
 
 <a href="https://biancassantos.github.io/evergreen-interiors" target="_blank">Acesse aqui sua página.</a>
 
