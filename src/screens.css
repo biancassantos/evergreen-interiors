@@ -63,4 +63,9 @@
     .products-container {
         grid-template-columns: 1fr;
     }
+
+    .cart {
+        right: -500px;
+        width: 90vw;
+    }
 }

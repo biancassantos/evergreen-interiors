@@ -1,10 +1,13 @@
 /* eslint-disable react/prop-types */
+import { useContext } from "react";
+import { CartContext } from "../context/CartContext";
 import { useNavigate } from "react-router-dom";
 import { FaSearch, FaArrowLeft } from "react-icons/fa";
-import ProductSpecifics from "./ProductSpecifics";
+import ProductSpecifics from "./ui/ProductSpecifics";
 
 const ProductInfo = ({showProduct}) => {
     const navigate = useNavigate();
+    const {addToCart} = useContext(CartContext);
     
   return (
     <section className="product-description">
@@ -20,15 +23,9 @@ const ProductInfo = ({showProduct}) => {
                 <h1>{showProduct[0].productName}</h1>
                 <p className="price">${showProduct[0].productPrice}</p>
                 <div className="add-container">
-                    <button>add to cart</button>
-                    <select name="quantity" id="quantity">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                    </select>
+                    <button className="add-to-cart-btn" onClick={() => {
+                        addToCart(showProduct[0].id)
+                    }}>add to cart</button>
                 </div>
                 <p>Shipping</p>
                 <input type="search" name="Shipping" id="shipping" />

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import products from '../products';
-import ProductCard from './ProductCard';
+import ProductCard from './ui/ProductCard';
 
 const ProductsContainer = ({ category }) => {
   return (

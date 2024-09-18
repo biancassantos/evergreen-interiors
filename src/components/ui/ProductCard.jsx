@@ -1,7 +1,10 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { CartContext } from "../../context/CartContext";
 
 const ProductCard = ({ id, productImg, imgAlt, productName, productPrice }) => {
+    const {addToCart} = useContext(CartContext);
   return (
     <section className="product-card" id={id}>
         <div className="product-img">
@@ -12,17 +15,13 @@ const ProductCard = ({ id, productImg, imgAlt, productName, productPrice }) => {
         <div className="product-info">
             <div className="product-header">
                 <h3>{productName.length > 13 ? `${productName.substring(0, 11)}...` : productName}</h3>
-                <select name="quantity" id="quantity">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                </select>
             </div>
             <p>${productPrice}</p>
-            <button>add to cart</button>
+            <button 
+            className="add-to-cart-btn" 
+            onClick={() => addToCart(id)}>
+            add to cart
+            </button>
         </div>
     </section>
   )
