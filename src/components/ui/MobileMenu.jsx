@@ -9,10 +9,10 @@ const MobileMenu = ({open, closeMenu}) => {
             <Link to="/evergreen-interiors">home</Link>
         </li>
         <li className="menu-link" onClick={closeMenu}>
-            <Link to="#">about</Link>
+            <Link to="/evergreen-interiors/about">about</Link>
         </li>
         <li className="menu-link" onClick={closeMenu}>
-            <Link to="#">my purchases</Link>
+            <Link to="/evergreen-interiors/purchases">my purchases</Link>
         </li>
       </ul>
     </nav>

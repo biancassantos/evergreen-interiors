@@ -23,9 +23,15 @@ const Header = () => {
         <h1 className="logo">Evergreen<br />Interiors</h1>
         <nav className="desktop-menu">
             <ul>
-                <li className="menu-link"><Link to="/evergreen-interiors">home</Link></li>
-                <li className="menu-link"><Link to="/evergreen-interiors/about">about</Link></li>
-                <li className="menu-link"><Link to="/evergreen-interiors/purchases">my purchases</Link></li>
+                <li className="menu-link">
+                  <Link to="/evergreen-interiors">home</Link>
+                </li>
+                <li className="menu-link">
+                  <Link to="/evergreen-interiors/about">about</Link>
+                </li>
+                <li className="menu-link">
+                  <Link to="/evergreen-interiors/purchases">my purchases</Link>
+                </li>
             </ul>
             <div className="cart-icon">
                 <span className="cart-number">{cartQuantity}</span>

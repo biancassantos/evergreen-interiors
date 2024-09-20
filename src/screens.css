@@ -20,6 +20,20 @@
     .add-container {
         max-width: 250px;
     }
+
+    .checkout-body {
+        flex-direction: column;
+        padding: 4rem 1rem;
+    }
+
+    .cart-display {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .total-display {
+        width: 100%;
+    }
 }
 
 /* MOBILE MENU AND HOMEPAGE */
