@@ -5,7 +5,7 @@
     }
 }
 
-/* PRODUCT PAGE CONTAINER */
+/* PRODUCT PAGE CONTAINER AND CHECKOUT PAGE */
 @media screen and (max-width: 780px) {
     .product-container {
         flex-direction: column;
@@ -23,6 +23,7 @@
 
     .checkout-body {
         flex-direction: column;
+        gap: 25px;
         padding: 4rem 1rem;
     }
 
