@@ -15,3 +15,6 @@ Olá, esse é um projeto de uma loja de móveis sustentáveis, usando o React e 
 **Imagens:**
 * De <a href="https://www.vecteezy.com/free-png/furniture?license-free=true" target="_blank">Vecteezy</a>
 * De <a href="https://unsplash.com/pt-br" target="_blank">Unsplash</a>
+
+**Text**
+* ChatGPT
