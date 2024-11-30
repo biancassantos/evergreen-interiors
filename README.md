@@ -11,7 +11,7 @@ Olá, esse é um projeto de uma loja de móveis sustentáveis.
 - Praticar pela primeira vez meus conhecimentos em React e React Router Dom.
 
 ### Links:
-- <a href="https://biancassantos.github.io/evergreen-interiors" target="_blank">Deploy do projeto</a>
+- <a href="https://biancassantos.github.io/evergreen-interiors" target="_blank">Página do projeto</a>
 
 </br>
 
