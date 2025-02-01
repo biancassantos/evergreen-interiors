@@ -1,11 +1,12 @@
 # Evergreen Interiors
 
 ## 📄 Sobre
-Olá, esse é um projeto de uma loja de móveis sustentáveis.
+Olá, esse projeto é um site de uma loja de móveis sustentáveis fictícia.
 
 ### Funcionalidades:
 - Adicionar itens ao carrinho
 - Aumentar/diminuir a quantidade dos itens
+- Remover itens do carrinho
 
 ### Objetivos:
 - Praticar pela primeira vez meus conhecimentos em React e React Router Dom.
@@ -21,6 +22,7 @@ Olá, esse é um projeto de uma loja de móveis sustentáveis.
 ### Tecnologias:
 - HTML
 - CSS
+- JavaScript
 - React
 
 </br>
