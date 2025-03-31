@@ -20,10 +20,14 @@ Olá, esse projeto é um site de uma loja de móveis sustentáveis fictícia.
 
 ## 🔎 Especificações
 ### Tecnologias:
-- HTML
-- CSS
-- JavaScript
 - React
+- JavaScript
+- CSS
+- JSX
+
+### Dependências:
+- React Router Dom
+- React Icons
 
 </br>
 
